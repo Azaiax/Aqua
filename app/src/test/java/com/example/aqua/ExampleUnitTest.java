@@ -1,4 +1,4 @@
-package com.example.tugastampilanweb;
+package com.example.aqua;
 
 import org.junit.Test;
 

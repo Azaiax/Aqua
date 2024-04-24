@@ -5,15 +5,15 @@
     android:id="@+id/main"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
-    android:background="@drawable/bg2"
+    android:background="@drawable/gradienbiru"
     android:paddingRight="0dp"
     android:paddingLeft="0dp"
     android:paddingTop="0dp"
     android:paddingBottom="0dp"
-    tools:context=".login1">
+    tools:context=".loginregis">
 
     <ImageView
-        android:id="@+id/abstrakbawah"
+        android:id="@+id/artbawah"
         android:layout_width="581dp"
         android:layout_height="428dp"
         android:layout_alignParentStart="true"
@@ -22,7 +22,7 @@
         android:layout_marginStart="-85dp"
         android:layout_marginEnd="-99dp"
         android:layout_marginBottom="-126dp"
-        app:srcCompat="@drawable/gambar6" />
+        app:srcCompat="@drawable/artbawah" />
 
     <ImageView
         android:id="@+id/botol"
@@ -31,10 +31,10 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="78dp"
-        android:layout_marginEnd="76dp"
-        android:layout_marginBottom="-139dp"
-        app:srcCompat="@drawable/gambar7" />
+        android:layout_marginStart="71dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="-165dp"
+        app:srcCompat="@drawable/produk" />
 
     <ImageView
         android:id="@+id/logo"
@@ -46,22 +46,43 @@
         android:layout_marginStart="39dp"
         android:layout_marginEnd="38dp"
         android:layout_marginBottom="457dp"
-        app:srcCompat="@drawable/gambar8" />
+        app:srcCompat="@drawable/logoclear" />
 
-    <ImageView
-        android:id="@+id/buttonloginreg"
-        android:layout_width="wrap_content"
-        android:layout_height="135dp"
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="195dp"
+        android:layout_height="63dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="55dp"
-        android:layout_marginEnd="54dp"
-        android:layout_marginBottom="393dp"
-        app:srcCompat="@drawable/buttonloginreg" />
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="469dp"
+        android:background="@drawable/buttonlogin"
+        android:backgroundTint="#1c549c"
+        android:textAllCaps="false"
+        android:onClick="login"
+        android:textColor="#FFFFFF"
+        android:text="Login"/>
+
+    <Button
+        android:id="@+id/buttonregis"
+        android:layout_width="195dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="390dp"
+        android:background="@drawable/buttonregis"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:onClick="regis"
+        android:text="Registrasi" />
 
     <ImageView
-        android:id="@+id/tulisan"
+        android:id="@+id/alamhidup"
         android:layout_width="176dp"
         android:layout_height="88dp"
         android:layout_alignParentStart="true"
@@ -69,8 +90,6 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="109dp"
         android:layout_marginEnd="108dp"
-        android:layout_marginBottom="317dp"
-        app:srcCompat="@drawable/gambar9" />
-
-
+        android:layout_marginBottom="304dp"
+        app:srcCompat="@drawable/alamhidup" />
 </RelativeLayout>
